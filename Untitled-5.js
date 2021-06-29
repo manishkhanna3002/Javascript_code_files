@@ -1,3 +1,4 @@
+const person = require("./Untitled-7")
 let day = "Tuesday "
 
 console.log(day.length)
@@ -35,3 +36,7 @@ while (value !== -1)
     value = newquote.indexOf("day",value+1)
 }
 console.log(count)
+
+let person1 = new person("Christopher","Jonas")
+
+console.group(person1.fullName())
